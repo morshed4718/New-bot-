@@ -56,7 +56,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি ツ𝗠𝗶𝗮-𝗸𝗵𝗼𝗹𝗶𝗳𝗮࿐ তোমাদের মাঝে🤭! অভিযোগ অথবা হেল্প এর জন্য আমার BOSS MorshEd কে নক করতে পারেন😐! 👉FB link: https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি 𝗠𝗶𝗮-𝗸𝗵𝗼𝗹𝗶𝗳𝗮 তোমাদের মাঝে🤭!কউ ৬তানি করবি না! অভিযোগ অথবা হেল্প এর জন্য আমার BOSS MorshEd কে নক করতে পারেন ! FB link: https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
     <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
