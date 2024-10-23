@@ -56,7 +56,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি নয়ন তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি ツ𝗠𝗶𝗮-𝗸𝗵𝗼𝗹𝗶𝗳𝗮࿐ তোমাদের মাঝে🤭!কেউ ৬তানি করবি নাহ!বস এর FB LINK https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -66,13 +66,12 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :Mohammad Nayan 
+DEVELOPER :Morshed Ahmed 
 
-🟣Facebook Account Link: 
-
+ে
 https://www.facebook.com/www.xnxx.com169
 
-🔵WHATSAPP NUMBER: wa.me/+8801615298449
+🔵WHATSAPP NUMBER: wa.me/+8801942089919
 
 🟢SUPPORT EMAIL: www.mdmnnm2004@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
@@ -80,7 +79,7 @@ https://www.facebook.com/www.xnxx.com169
     console.error(error);
 });
   }
-  else {
+  else {্
     try {
       if (!fs.existsSync(__dirname + `/Nayan/font/Semi.ttf`)) {
         let getfont = (await axios.get(fontlink, { responseType: "arraybuffer" })).data;
