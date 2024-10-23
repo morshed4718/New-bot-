@@ -1,9 +1,9 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "Bal",
+	name: "bal",
     version: "1.1.1",
 prefix: true,
-	permssion: 0,
+	permssion: 3,
 	credits: "John Lester", 
 	description: "Just Respond",
 	category: "no prefix",
