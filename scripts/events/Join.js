@@ -56,7 +56,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি ツ𝗠𝗶𝗮-𝗸𝗵𝗼𝗹𝗶𝗳𝗮࿐ তোমাদের মাঝে🤭! যেকোনো অভিযোগ অথবা হেল্প এর জন্য আমার BOSS MorshEd_কে নক করতে পারেন😐! 👉FB link: https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL🤍"", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি ツ𝗠𝗶𝗮-𝗸𝗵𝗼𝗹𝗶𝗳𝗮࿐ তোমাদের মাঝে🤭!কেউ ৬তানি করবি নাহ যেকনো অভিযোগ বা হেল্প এর জন্য আমার BOSS MorshEd কে নক করতে পারোন! 👉 FB LINK : https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL💬", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -66,15 +66,15 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :Morshed Ahmed 
+DEVELOPER :Mohammad Nayan 
 
-🟣Facebook Account Link:
+🟣Facebook Account Link: 
 
-https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL
+https://www.facebook.com/www.xnxx.com169
 
-🔵WHATSAPP NUMBER: wa.me/+8801942089919
+🔵WHATSAPP NUMBER: wa.me/+8801615298449
 
-🟢SUPPORT EMAIL: www.mdmorshed4718@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
+🟢SUPPORT EMAIL: www.mdmnnm2004@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);
@@ -184,4 +184,4 @@ https://www.facebook.com/profile.php?id=100075133524968&mibextid=ZbWKwL
       }
     } catch (e) { return console.log(e) };
   }
-                                                                                                        }
+          }
