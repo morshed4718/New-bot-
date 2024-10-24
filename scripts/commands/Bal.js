@@ -13,7 +13,7 @@ prefix: true,
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("miya kholifa") || react.includes("miakholofa") || react.includes("mia kholifa")) {
+	if(react.includes("Bal") || react.includes("bl") || react.includes("bll")) {
 		var msg = {
 				body: "__এই শব্দ টার  মধ্যে যে কতটা ভালোবাসা,কষ্ট,রোমাঞ্চ,লুকিয়ে আছে! তুমি কি বুঝবে বাল!😕",
 			}
