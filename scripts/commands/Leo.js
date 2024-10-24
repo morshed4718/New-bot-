@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	let react = event.body.toLowerCase();
 	if(react.includes("Leo") || react.includes("Leo🤬") || react.includes("Leo😙")) {
 		var msg = {
-				body: "সর তুই লুচ্চা💋🤧","সরি বস🥺🖕",
+				body: "আমি সিংগেল হিহিহিহি😁😁",
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("", event.messageID, (err) => {}, true)
