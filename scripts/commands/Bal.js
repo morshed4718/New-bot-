@@ -9,18 +9,18 @@ prefix: true,
 	category: "no prefix",
     cooldowns: 5, 
 };
-const videoDATA =https://www.facebook.com/share/r/Hkt4ibfLjCkX6Bkm/.global.replit.dev/video/anime",
+
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
-	if(react.includes("Bal") || react.includes("bl") || react.includes("Bal")) {
+	if(react.includes("miya kholifa") || react.includes("miakholofa") || react.includes("mia kholifa")) {
 		var msg = {
-			boday: "এই শব্দ টার  মধ্যে যে কতটা ভালোবাসা,কষ্ট,রোমাঞ্চ,লুকিয়ে আছে! তুমি কি বুঝবে বাল!😕",
-		}
+				body: "__এই শব্দ টার  মধ্যে যে কতটা ভালোবাসা,কষ্ট,রোমাঞ্চ,লুকিয়ে আছে! তুমি কি বুঝবে বাল!😕",
+			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
 
-  }
+	}
